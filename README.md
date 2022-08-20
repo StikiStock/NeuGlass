@@ -23,6 +23,6 @@ I'm currently deployign this on my personal website! -> https://stiki.ir
 - Optimized Meta Tags
 - Schema.org taglines
 - In-line tailwind CLI & scripting for optimized performance
-- Responsiveness!
 - Social Media References
 - Your very custom logo placeholder on top right corner.
+- Responsive!
