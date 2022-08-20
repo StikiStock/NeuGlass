@@ -17,7 +17,7 @@ I'm currently deployign this on my personal website! -> https://stiki.ir
 ## To-do
 
 - Add a dark-mode toggle feature.
-- Add a script for random on-page-load hue-rotation filter that makes the theme less repetitive.
+- ~~Add a script for random on-page-load hue-rotation filter that makes the theme less repetitive.~~
 ## Features
 
 - Optimized Meta Tags
