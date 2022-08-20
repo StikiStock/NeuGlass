@@ -54,7 +54,7 @@
         src: url(./util/monobold.ttf);
       }
       * {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       }
       .text {
         -webkit-hyphens: auto;
@@ -64,7 +64,9 @@
       }
     </style>
 </head>
-<body class="p-0 m-0 overflow-hidden bg-[url('util/background1.jpg')] bg-no-repeat bg-cover">
+<body class="p-0 m-0 overflow-hidden">
+
+<div class="bg-[url('util/background1.jpg')] bg-no-repeat bg-cover absolute w-full h-full" id="background" style="transition: all 1s ease-in;"></div>
 
 <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]
 rounded-2xl backdrop-blur-2xl border-[1px] border-[#ffffff10] shadow-[0px_22px_70px_4px_rgba(0,0,0,0.56)]">
@@ -80,7 +82,6 @@ rounded-2xl backdrop-blur-2xl border-[1px] border-[#ffffff10] shadow-[0px_22px_7
     <div class="mx-auto flex flex-row justify-around w-[18em] h-[25%]">
       <img src="util/icons8-github-64.png" class="w-[1.2em] h-[auto] invert my-auto opacity-50 hover:opacity-100 cursor-pointer transition-all" onclick="window.location.href='https://github.com/StikiStock/'">
       <img src="util/icons8-reddit-64.png" class="w-[1em] h-[auto] invert my-auto opacity-50 hover:opacity-100 cursor-pointer transition-all" onclick="window.location.href='https://www.reddit.com/user/xStiki'"/>
-      <img src="util/icons8-twitter-64.png" class="w-[1em] h-[auto] invert my-auto opacity-50 hover:opacity-100 cursor-pointer transition-all" onclick="window.alert('It was a bait.')"/>
       <img src="util/icons8-telegram-64.png" class="w-[1em] h-[auto] invert my-auto opacity-50 hover:opacity-100 cursor-pointer transition-all" onclick="window.location.href='https://t.me/stikistock'"/>
     </div>
   </div>
@@ -89,4 +90,13 @@ rounded-2xl backdrop-blur-2xl border-[1px] border-[#ffffff10] shadow-[0px_22px_7
 <img src="util/teamtrick.png" class="fixed top-5 right-5 invert w-[2em] h-auto opacity-50"/>
 
 </body>
+<script>
+  setTimeout(() => {
+    const hue_val = Math.floor(Math.random() * 361)
+    const bg = document.querySelector('#background')
+    bg.classList.toggle('hue-rotate-[' + hue_val + 'deg]')
+  }, 1200);
+
+
+</script>
 </html>
