@@ -1,5 +1,5 @@
 
-# NeuGlass Theme
+# NeuGlass - A Glassmorphism-themed Tailwind Template
 
 A responsive HTML design flavoured by TailwindCSS ~ Portraying your personal about-me
 card with beautiful glassmorphism design! 💥
@@ -17,7 +17,7 @@ I'm currently deployign this on my personal website! -> https://stiki.ir
 ## To-do
 
 - Add a dark-mode toggle feature.
-- Add a script for random on-page-load hue-rotation filter that makes the theme less repeatetive.
+- Add a script for random on-page-load hue-rotation filter that makes the theme less repetitive.
 ## Features
 
 - Optimized Meta Tags
