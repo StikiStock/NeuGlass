@@ -22,7 +22,8 @@ I'm currently deployign this on [My Personal Website](https://stiki.ir)!
 
 ## To-do
 
-- ~~Add a script for random on-page-load hue-rotation filter that makes the theme less repetitive.~~ Done!
+- ~~Add a script for random on-page-load hue-rotation filter that makes the theme less repetitive.~~ Done! Edit: The hue is now changed into a static degree.
+- Add a blog section.
 
 ## Author
 
