@@ -50,11 +50,8 @@
       <link rel="stylesheet" href="style.css">
     <style>
       @font-face {
-        font-family: 'Mono2';
+        font-family: 'MonoBold';
         src: url(./util/monobold.ttf);
-      }
-      * {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       }
       .text {
         -webkit-hyphens: auto;
@@ -64,39 +61,48 @@
       }
     </style>
 </head>
-<body class="p-0 m-0 overflow-hidden">
+<body class="p-0 m-0">
+  <img src="util/teamtrick.png" class="absolute top-5 right-5 invert w-[2em] h-auto opacity-50"/>
+<div class="bg-[url('util/background1.jpg')] bg-no-repeat bg-cover bg-fixed bg-center absolute w-full h-full top-0 left-0" id="background" style="transition: all 0.5s ease-in;">
+  <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]
+  rounded-2xl backdrop-blur-2xl border-[1px] border-[#ffffff10] shadow-[0px_22px_70px_4px_rgba(0,0,0,0.56)]
+  w-[350px] h-[300px] lg:w-[500px] lg:h-[250px] flex flex-col overflow-hidden">
+      <div class="text-white flex justify-between mx-auto w-[80%] h-[35%]">
+        <div class="text-xl my-auto font-['MonoBold'] w-fit">Arya Azizi</div>
+        <div class="text-sm my-auto font-['MonoBold'] w-fit">Front End</div>
+      </div>
+      <div class="mx-auto text-md text text-gray-300 text-center my-auto max-w-[80%] h-fit font-mono">
+        “ An enthusiastic web designer, gamer, night owl,
+        introverted, talkative, and competetive human. ”
+      </div>
+      <div class="mx-auto flex flex-row justify-around w-[18em] h-[25%]">
+        <img src="util/icons8-github-64.png" class="w-[1.2em] h-[auto] invert my-auto opacity-50 hover:opacity-100 cursor-pointer transition-all" onclick="window.location.href='https://github.com/StikiStock/'">
+        <img src="util/icons8-reddit-64.png" class="w-[1em] h-[auto] invert my-auto opacity-50 hover:opacity-100 cursor-pointer transition-all" onclick="window.location.href='https://www.reddit.com/user/xStiki'"/>
+        <img src="util/icons8-telegram-64.png" class="w-[1em] h-[auto] invert my-auto opacity-50 hover:opacity-100 cursor-pointer transition-all" onclick="window.location.href='https://t.me/stikistock'"/>
+      </div>
+  </div>
+</div>
 
-<div class="bg-[url('util/background1.jpg')] bg-no-repeat bg-cover absolute w-full h-full" id="background" style="transition: all 1s ease-in;"></div>
+<svg class="absolute bottom-[-3px] w-full fill-gray-200 h-[15px] md:h-[20px] lg:h-[25px]" viewBox="0 0 1366 19.18" preserveAspectRatio="none"><path d="M683.1,18.3C386.63,18.3,129.24,10.85,0,0V19.18H1366V0C1236.66,10.84,979.37,18.3,683.1,18.3Z"></path> </svg>
 
-<div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]
-rounded-2xl backdrop-blur-2xl border-[1px] border-[#ffffff10] shadow-[0px_22px_70px_4px_rgba(0,0,0,0.56)]">
-  <div class="w-[350px] h-[300px] lg:w-[500px] lg:h-[250px] flex flex-col overflow-hidden">
-    <div class="text-white flex justify-between mx-auto w-[80%] h-[35%]">
-      <div class="text-xl my-auto font-['Mono2'] w-fit">Arya Azizi</div>
-      <div class="text-sm my-auto font-['Mono2'] w-fit">Front End</div>
-    </div>
-    <div class="font-mono mx-auto text-md text text-gray-300 text-center my-auto max-w-[80%] h-fit">
-      “ An enthusiastic web designer, gamer, night owl,
-       introverted, talkative, and competetive human. ”
-    </div>
-    <div class="mx-auto flex flex-row justify-around w-[18em] h-[25%]">
-      <img src="util/icons8-github-64.png" class="w-[1.2em] h-[auto] invert my-auto opacity-50 hover:opacity-100 cursor-pointer transition-all" onclick="window.location.href='https://github.com/StikiStock/'">
-      <img src="util/icons8-reddit-64.png" class="w-[1em] h-[auto] invert my-auto opacity-50 hover:opacity-100 cursor-pointer transition-all" onclick="window.location.href='https://www.reddit.com/user/xStiki'"/>
-      <img src="util/icons8-telegram-64.png" class="w-[1em] h-[auto] invert my-auto opacity-50 hover:opacity-100 cursor-pointer transition-all" onclick="window.location.href='https://t.me/stikistock'"/>
+<div class="absolute top-[100%] w-full h-fit bg-gray-200">
+  <div class="max-w-lg md:max-w-xl lg:max-w-2xl mx-auto mt-[1.5em] md:mt-[3em] p-3">
+    <div class="w-full font-[MonoBold] text-lg md:text-xl lg:text-2xl mt-5 mb-[2rem] lg:mb-[3.5rem]">> Blog</div>
+    <div class="mb-[2rem]">
+      <img class="mx-auto" src="./util/blogpost/rubick.jpg" alt="A robot hand solving a rubick"/>
+      <div class="flex">
+        <p class="text bg-[#3ae57f] text-md p-1 font-mono ml-auto">OpenAI's new AI booming the industry with it's mind blowing projects coming in hot!</p>
+        <div class="bg-black text-gray-200 flex p-1 mr-auto"><a class="font-[MonoBold] text-sm my-auto" href="https://stiki.ir">Continue</a></div>
+      </div>
     </div>
   </div>
 </div>
 
-<img src="util/teamtrick.png" class="fixed top-5 right-5 invert w-[2em] h-auto opacity-50"/>
-
 </body>
 <script>
   setTimeout(() => {
-    const hue_val = Math.floor(Math.random() * 361)
     const bg = document.querySelector('#background')
-    bg.classList.toggle('hue-rotate-[' + hue_val + 'deg]')
-  }, 1200);
-
-
+    bg.classList.toggle('hue-rotate-[-50deg]')
+  }, 750);
 </script>
 </html>
