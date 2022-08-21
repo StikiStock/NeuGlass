@@ -1,8 +1,8 @@
 
 # NeuGlass - A Glassmorphism-themed Tailwind Template
 
-A responsive HTML design flavoured by TailwindCSS ~ Portraying your personal about-me
-card with beautiful glassmorphism design! 💥
+A responsive Tailwind portfolio theme ~ Portraying your personal about-me
+card with beautiful glassmorphism design; it is lightweight and easy-to-modify.
 
 
 ## Features
