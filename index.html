@@ -48,6 +48,7 @@
     <meta name="google-site-verification" content="LrQCPw1qdNcGWEXCZdC_cdlhbgSy2wHYSaDzaYanA54" />
     
       <link rel="stylesheet" href="style.css">
+      
     <style>
       @font-face {
         font-family: 'MonoBold';
@@ -63,7 +64,7 @@
 </head>
 <body class="p-0 m-0 bg-gray-200">
 
-<div class="bg-[url('util/background1.jpg')] bg-no-repeat bg-cover bg-fixed absolute w-full h-[95%] top-0 left-0" id="background" style="transition: all 0.5s ease-in;">
+<div class="bg-[url('util/background1.jpg')] bg-no-repeat bg-cover bg-fixed absolute w-full h-[95%] top-0 left-0" id="background" style="transition: all 0.8s ease-in;">
 
   <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]
   rounded-2xl backdrop-blur-xl border-[1px] border-[#5353532c] shadow-[0px_22px_70px_4px_rgba(0,0,0,0.56)] bg-[#0000004f]
@@ -74,9 +75,8 @@
         <div class="text-sm my-auto font-['MonoBold'] w-fit">Front End</div>
       </div>
 
-      <div class="mx-auto text-md text text-gray-300 text-center my-auto max-w-[80%] h-fit font-mono">
-        “ An enthusiastic web designer, gamer, night owl,
-        introverted, talkative, and competetive human. ”
+      <div class="mx-auto text-md text text-gray-300 text-center my-auto max-w-[80%] h-fit font-mono" fun-fact="This text was made by OpenAI's GPT-3 davinci-002 module.">
+        “ A front-end web developer and graphic designer who strives to create user-friendly and visually stunning websites. ”  
       </div>
 
       <div class="mx-auto flex flex-row justify-around w-[18em] h-[25%]">
@@ -88,14 +88,14 @@
   </div>
 </div>
 
-<svg class="absolute bottom-[4%] w-full fill-gray-200 h-[10px] md:h-[20px] lg:h-[25px]" viewBox="0 0 1366 19.18" preserveAspectRatio="none"><path d="M683.1,18.3C386.63,18.3,129.24,10.85,0,0V19.18H1366V0C1236.66,10.84,979.37,18.3,683.1,18.3Z"></path> </svg>
+<svg class="absolute bottom-[4.8%] w-full fill-gray-200 h-[10px] md:h-[20px] lg:h-[25px]" viewBox="0 0 1366 19.18" preserveAspectRatio="none"><path d="M683.1,18.3C386.63,18.3,129.24,10.85,0,0V19.18H1366V0C1236.66,10.84,979.37,18.3,683.1,18.3Z"></path> </svg>
 
 <div class="absolute top-[100%] w-full h-fit bg-gradient-to-b bg-gray-200">
   <div class="max-w-lg md:max-w-xl lg:max-w-2xl mx-auto px-5">
-    <div class="w-full font-[MonoBold] text-lg md:text-xl lg:text-2xl mb-5 lg:mb-[3rem] -ml-10">> Blog</div>
+    <div class="w-full font-[MonoBold] text-lg md:text-xl lg:text-2xl mb-5 lg:mb-[3rem]">> Blog</div>
 
     <div class="mb-[4rem]">
-      <img class="mx-auto rounded-tr-md rounded-tl-md" src="./util/blogpost/rubick.jpg" alt="A robot hand solving a rubick"/>
+      <img class="mx-auto rounded-tr-md rounded-tl-md" src="./util/blogpost/openai.jpg" alt="A robot hand solving a rubick"/>
       <div class="flex">
         <p class="text bg-[#3ae57f] text-md p-2 font-mono ml-auto rounded-bl-md w-full text-center">OpenAI - My personal collection.</p>
         <div class="bg-black text-gray-200 flex p-2 mr-auto rounded-br-md"><a class="font-[MonoBold] text-sm m-auto hover:text-[#3ae57f] transition-all" href="https://stiki.ir/blog/openai">Continue</a></div>
@@ -120,6 +120,6 @@
   setTimeout(() => {
     const bg = document.querySelector('#background')
     bg.classList.toggle('hue-rotate-[-50deg]')
-  }, 750);
+  }, 900);
 </script>
 </html>
