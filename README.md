@@ -16,7 +16,8 @@ card with beautiful glassmorphism design; it is lightweight and easy-to-modify.
 
 ## Demo
 
-I'm currently deployign this on [My Personal Website](https://stiki.ir)!
+I'm currently deployign the *Stable Build* on [My Personal Website](https://stiki.ir)!
+The *Experimental Build* is currently available at https://stikistock.github.io/NeuGlass/
 
 ![NeuGlass Preview Image](https://user-images.githubusercontent.com/87359144/184803230-ecada1d6-8d8b-4f29-9b30-19a8768083d1.png)
 
