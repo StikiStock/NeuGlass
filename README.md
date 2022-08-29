@@ -1,8 +1,9 @@
 
-# NeuGlass - A Glassmorphism-themed Tailwind Template
+# NeuGlass - A Glassmorphism-based Tailwind Template
 
 A responsive Tailwind portfolio theme ~ Portraying your personal about-me
 card with beautiful glassmorphism design; it is lightweight and easy-to-modify.
+comes with a blog section and it's own blogpost template.
 
 
 ## Features
@@ -16,9 +17,7 @@ card with beautiful glassmorphism design; it is lightweight and easy-to-modify.
 
 ## Demo
 
-I'm currently deployign the *main branch* on [My Personal Website](https://stiki.ir)!
-
-The *Experimental branch* is currently available at https://stikistock.github.io/NeuGlass/
+I'm currently deployign this project on [My Personal Website](https://stiki.ir)!
 
 ![NeuGlass Preview Image](https://user-images.githubusercontent.com/87359144/184803230-ecada1d6-8d8b-4f29-9b30-19a8768083d1.png)
 
