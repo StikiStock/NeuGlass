@@ -12,8 +12,7 @@ comes with a blog section and it's own blogpost template.
 - Schema.org taglines
 - In-line tailwind CLI & scripting for optimized performance
 - Social Media References
-- Your very custom logo placeholder on top right corner.
-- Responsive!
+- Fully Responsive!
 
 ## Demo
 
