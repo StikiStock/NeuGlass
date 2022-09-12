@@ -56,6 +56,31 @@
       src: url(./util/monobold.ttf);
     }
 
+    @-webkit-keyframes fadeInUp{
+    0%{
+        opacity:0;
+        -webkit-transform:translate3d(0,15%,0);
+        transform:translate3d(0,15%,0)
+    }
+    to{
+        opacity:1;
+        -webkit-transform:translateZ(0);
+        transform:translateZ(0)
+    }
+}
+@keyframes fadeInUp{
+    0%{
+        opacity:0;
+        -webkit-transform:translate3d(0,15%,0);
+        transform:translate3d(0,15%,0)
+    }
+    to{
+        opacity:1;
+        -webkit-transform:translateZ(0);
+        transform:translateZ(0)
+    }
+}
+
     .text {
       -webkit-hyphens: auto;
       -moz-hyphens: auto;
@@ -72,7 +97,7 @@
 <body class="p-0 m-0 bg-black style='z-index: 10;' oncontextmenu=" return false">
 
   <div background
-    class="bg-[url('./util/Artboard2.jpg')] bg-no-repeat bg-cover bg-fixed absolute w-full h-[95%] top-0 left-0"
+    class="bg-[url('./util/Artboard2.jpg')] bg-no-repeat bg-cover bg-fixed w-full h-[95%] top-0 absolute left-0 flex justify-center items-center"
     id="background" style="transition: all 0.8s ease-in;">
 
     <svg logo class="top-2 left-2 w-[3.5em] h-auto absolute fill-[#3ae57f]" viewBox="0 0 750 750" id="Layer_1"
@@ -87,9 +112,9 @@
         d="M342.91,492.05c-13.13-4.86-26.25-9.73-39.38-14.58-9.6-3.63-22.43-7.52-25.19,6.18-6.73,23.3,42.25,28.85,57.9,37.49,15.9,4.62,20.35-23.97,6.67-29.09Z" />
     </svg>
 
-    <div aboutme-card class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]
-  rounded-2xl backdrop-blur-lg border-[1px] border-[#5353532c] shadow-2xl shadow-black bg-[#0000004f]
-  w-[350px] h-[300px] lg:w-[500px] lg:h-[250px] flex flex-col overflow-hidden">
+    <div aboutme-card class="
+  rounded-2xl backdrop-blur-md border-[1px] border-[#5353532c] shadow-2xl shadow-black bg-[#0000004f]
+  w-[350px] h-[300px] lg:w-[500px] lg:h-[250px] flex flex-col overflow-hidden card" style="animation: fadeInUp 500ms ease-in-out;">
 
       <div name-and-field class="text-white flex justify-between mx-auto w-[80%] h-[35%]">
         <div class="text-xl my-auto font-['MonoBold'] w-fit">Arya Azizi</div>
