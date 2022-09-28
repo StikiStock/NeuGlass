@@ -9,6 +9,13 @@ const observer = new IntersectionObserver((entries) => {
     })
 });
 
+let x, i;
+x = document.querySelectorAll(".blogimg");
+for (i = 0; i < x.length; i++) {
+    x[i].classList.add('animated');
+}
 
 const animated = document.querySelectorAll('.animated');
 animated.forEach((el) => observer.observe(el));
+
+
