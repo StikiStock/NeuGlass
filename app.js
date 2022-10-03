@@ -9,6 +9,8 @@ const observer = new IntersectionObserver((entries) => {
     })
 });
 
+// Applies scroll animation to every element using .blogimg class:
+
 let x, i;
 x = document.querySelectorAll(".blogimg");
 for (i = 0; i < x.length; i++) {
