@@ -1,6 +1,5 @@
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-        console.log(entry);
         if (entry.isIntersecting) {
             entry.target.classList.add('shown');
         } else {
@@ -8,8 +7,6 @@ const observer = new IntersectionObserver((entries) => {
         }
     })
 });
-
-// Applies scroll animation to every element using .blogimg class:
 
 let x, i;
 x = document.querySelectorAll(".blogimg");
