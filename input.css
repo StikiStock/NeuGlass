@@ -19,10 +19,6 @@
       @apply opacity-0
     }
 
-    .projects {
-       transition: color 100ms ease-in-out !important;
-    }
-
     .shown {
       @apply opacity-100 translate-y-[-5px]
     }
