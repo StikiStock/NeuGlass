@@ -60,7 +60,7 @@
 
   <div background class="bg-[black] w-full h-[calc(100vh_-_5em)] relative">
 
-    <svg bg-svg class="absolute right-[-55rem] md:right-[-40rem] lg:right-[-25rem] top-[5rem] w-[72rem]" viewBox="0 0 50 50" fill="none"
+    <svg bg-svg class="right-[-55rem] md:right-[-40rem] lg:right-[-25rem] top-[5rem] w-[72rem] fixed" viewBox="0 0 50 50" fill="none"
       xmlns="http://www.w3.org/2000/svg">
       <path class="stroke"
         d="M20.19 5.99992C14.9 4.46992 7.46999 1.23992 4.80999 6.58992C1.89999 12.4699 7.04999 17.9999 10.41 22.3499C12.72 25.6499 11.9 28.4699 8.83999 31.6899C1.99999 38.8599 5.07999 48.4599 15.15 48.6199C19.54 48.6199 23.61 46.5399 27.48 44.4599C34.9 40.4599 39.48 43.4099 44.31 39.9399C47.55 37.6299 45.26 31.7299 43.92 28.1799C42.777 25.2112 42.7028 21.9374 43.71 18.9199C44.71 15.0999 45.35 8.91992 41.13 7.00992C39.21 6.28992 37 7.11992 35 6.46992C32.52 5.63992 31.28 2.70992 28.85 1.73992C24.12 -0.160081 24 6.99992 20.19 5.99992Z"
@@ -126,9 +126,9 @@
     </svg>
 
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-1">
-      <div aboutme-card class="animated
-      rounded-xl backdrop-blur-lg md:backdrop-blur-xl lg:backdrop-blur-2xl border-[1px] border-[#5353532c] shadow-2xl shadow-black bg-[#13131334]
-      w-[350px] h-[300px] lg:w-[500px] lg:h-[250px] flex flex-col overflow-hidden">
+      <div aboutme-card class="animated z-10
+      rounded-xl backdrop-blur-lg border-[1px] border-[#5353532c] shadow-2xl shadow-black bg-[#24242463]
+      w-[330px] h-[300px] md:w-[500px] md:h-[250px] flex flex-col overflow-hidden">
 
         <div name-and-field class="text-white flex justify-between mx-auto w-[80%] h-[35%]">
           <div class="my-auto text-xl font-['MonoBold'] w-fit">Arya Azizi</div>
@@ -153,7 +153,10 @@
             onclick="window.open('https://t.me/stikistock')" />
         </div>
       </div>
-      <a href="./projects/" class="font-mono text-slate-200 w-fit hover:text-slate-400 z-10 animated">./projects/</a>
+      <div class="font-mono animated z-0 w-fit
+      rounded-xl backdrop-blur-lg md:backdrop-blur-xl lg:backdrop-blur-2xl border-[1px] border-[#5353532c] shadow-2xl shadow-black bg-[#24242463]
+      flex overflow-hidden mt-auto items-end p-2 pt-4 relative -top-3 rounded-tl-none"><a href="./projects/" class="
+      projects text-slate-300 w-fit hover:text-slate-100 ">./projects/</a></div>
     </div>
   </div>
 
@@ -166,7 +169,6 @@
     <div blog-section-tightener class="max-w-lg px-5 mx-auto md:max-w-xl lg:max-w-2xl">
       <div blog-section-title class="w-fit font-[MonoBold] text-lg md:text-xl lg:text-2xl cursor-pointer py-10"
         id="Blog" onclick="location.href='#Blog'">> Blog</div>
-
 
 
       <div class=" shadow-black drop-shadow-2xl pb-[3rem] w-[80%] mx-auto animated">
@@ -186,6 +188,7 @@
 
 
 
+      
 
       <div class="shadow-black drop-shadow-2xl pb-[3rem] w-[80%] mx-auto animated">
 
@@ -201,7 +204,6 @@
               href="./blog/neumorphism.html">Read</a></div>
         </div>
       </div>
-
 
 
     </div>

@@ -15,8 +15,12 @@
     }
 
     .animated {
-      transition: all 350ms ease-in-out 50ms;
+      transition: transform 350ms ease-in-out 100ms, opacity 350ms ease-in-out 100ms;
       @apply opacity-0
+    }
+
+    .projects {
+       transition: color 100ms ease-in-out !important;
     }
 
     .shown {
