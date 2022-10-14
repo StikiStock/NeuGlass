@@ -62,9 +62,11 @@
 
 </head>
 
-<body class="p-0 m-0 h-full w-full overflow-x-hidden bg-black">
+<body class="p-0 m-0 h-full w-full overflow-x-hidden bg-black gridbg">
 
-  <div background class="bg-[black] w-full h-[calc(100vh_-_5em)] relative">
+  <div background class="w-full h-[calc(100vh_-_5em)] relative">
+
+    <!-- <div class="gridbg"></div> -->
 
     <svg bg-svg class="right-[-45rem] md:right-[-35rem] lg:right-[-18rem] top-[5rem] w-[72rem] h-[60rem] absolute"
       viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -138,8 +140,8 @@
 
         <div name-and-field class="text-white flex justify-between mx-auto w-[80%] h-[35%]">
           <div class="flex flex-row gap-1 items-center">
-            <img class="w-[1em] h-[1em] invert hoverable cursor-pointer rotate-[270deg]
-            opacity-50 hover:opacity-100 transition-opacity Arrow" onclick="animateOut()" src="https://img.icons8.com/material-outlined/96/000000/collapse-arrow.png"/>
+            <img class="w-[1em] h-[1em] invert hoverable cursor-pointer rotate-[90deg]
+            opacity-50 hover:opacity-100 transition-opacity Arrow" onclick="cardFlip()" src="https://img.icons8.com/material-outlined/96/000000/collapse-arrow.png"/>
             <div class="text-xl font-['MonoBold']">Arya Azizi</div>
           </div>
           <div class="my-auto text-sm font-['MonoBold']">Front End</div>
@@ -173,7 +175,7 @@
     </div>
   </div>
 
-  <svg curve-path class="relative translate-y-[1px] w-full fill-gray-200 h-[10px] md:h-[20px] lg:h-[25px]"
+  <svg curve-path class="relative translate-y-[1px] w-full fill-[#EEF1F1] h-[10px] md:h-[20px] lg:h-[25px]"
     viewBox="0 0 1366 19.18" preserveAspectRatio="none">
     <path d="M683.1,18.3C386.63,18.3,129.24,10.85,0,0V19.18H1366V0C1236.66,10.84,979.37,18.3,683.1,18.3Z"></path>
   </svg>

@@ -31,6 +31,12 @@
       @apply opacity-100 translate-y-[0px]
     }
 
+    .gridbg {
+      background: linear-gradient( 180deg, rgba(0, 0, 0, 0) 10em, black 40em ), url(https://stately.ai/assets/grid-cell.svg) 0 0 repeat;
+      background-size: 100% 100%, 2.3rem 2.3rem;
+      @apply absolute inset-0
+    }
+
     .media {
       @apply w-[1em] h-[auto] invert my-auto opacity-50 hover:opacity-100 cursor-pointer transition-all
     }

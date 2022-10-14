@@ -25,13 +25,11 @@ let showMenu = () => {
 
 let tartib = 0;
 
-let animateOut = () => {
-  
-  tartib++
+const Card = document.querySelector('.Card');
+const Arrow = document.querySelector('.Arrow');
+const Menu = document.querySelector('.Menu');
 
-  const Card = document.querySelector('.Card');
-  const Arrow = document.querySelector('.Arrow');
-  const Menu = document.querySelector('.Menu');
+const cardFlip = () => {
 
   const first = Card.getBoundingClientRect();
 
@@ -62,20 +60,20 @@ let animateOut = () => {
   });
 
   Menu.animate([{
-    transform: 'translateX(-5px)',
     opacity: '0'
   }, {
-    transform: 'translateX(0px)',
     opacity: '1'
   }], {
-    duration: 400,
-    easing: 'ease-in-out',
+    duration: 300,
+    easing: 'ease-in',
     fill: 'both'
   })
 
+  tartib++
+
   if (tartib%2 == 0) {
     Arrow.animate([{
-      transform: 'rotate(270deg)' 
+      transform: 'rotate(90deg)' 
     }], {
       duration: 300,
       easing: 'ease-in-out',
@@ -85,7 +83,7 @@ let animateOut = () => {
 
   else if (tartib%2 == 1) {
     Arrow.animate([{
-      transform: 'rotate(90deg)' 
+      transform: 'rotate(270deg)' 
     }], {
       duration: 300,
       easing: 'ease-in-out',
