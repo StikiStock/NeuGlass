@@ -73,7 +73,7 @@ const cardFlip = () => {
 
   if (tartib%2 == 0) {
     Arrow.animate([{
-      transform: 'rotate(90deg)' 
+      transform: 'rotate(270deg)' 
     }], {
       duration: 300,
       easing: 'ease-in-out',
@@ -83,7 +83,7 @@ const cardFlip = () => {
 
   else if (tartib%2 == 1) {
     Arrow.animate([{
-      transform: 'rotate(270deg)' 
+      transform: 'rotate(90deg)' 
     }], {
       duration: 300,
       easing: 'ease-in-out',

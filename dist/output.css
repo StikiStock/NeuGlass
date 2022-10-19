@@ -582,7 +582,7 @@ html {
 }
 
 .gridbg {
-  background: linear-gradient( 180deg, rgba(0, 0, 0, 0) 10em, black 40em ), url(https://stately.ai/assets/grid-cell.svg) 0 0 repeat;
+  background: linear-gradient( 180deg, rgba(0, 0, 0, 0) 10em, black 40em ), url(https://stiki.ir/util/img/grid.svg) 0 0 repeat;
   background-size: 100% 100%, 2.3rem 2.3rem;
   position: absolute;
   top: 0px;
@@ -956,6 +956,11 @@ html {
 
 .rotate-\[90deg\] {
   --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[270deg\] {
+  --tw-rotate: 270deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
