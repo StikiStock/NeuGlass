@@ -553,26 +553,29 @@ video {
 
 html {
   box-sizing: border-box;
-  font-family: 'Nunito Sans'
 }
 
-*, *:before, *:after {
+*,
+  *:before,
+  *:after {
   box-sizing: inherit;
 }
 
-.hoverable, .Menu {
+.hoverable,
+  .Menu {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
-  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  -webkit-transform: translateZ(0) scale(1, 1);
 }
 
 .animated {
-  transition: transform 350ms ease-in-out 100ms, opacity 350ms ease-in-out 100ms;
+  transition: transform 350ms ease-in-out 100ms,
+      opacity 350ms ease-in-out 100ms;
   --tw-translate-y: -5px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  opacity: 0
+  opacity: 0;
 }
 
 .shown {
@@ -582,13 +585,14 @@ html {
 }
 
 .gridbg {
-  background: linear-gradient( 180deg, rgba(0, 0, 0, 0) 10em, black 40em ), url(https://stiki.ir/util/img/grid.svg) 0 0 repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 10em, black 40em),
+      url(https://stiki.ir/util/img/grid.svg) 0 0 repeat;
   background-size: 100% 100%, 2.3rem 2.3rem;
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
-  left: 0px
+  left: 0px;
 }
 
 .media {
@@ -951,11 +955,6 @@ html {
 
 .translate-y-\[2rem\] {
   --tw-translate-y: 2rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.rotate-\[90deg\] {
-  --tw-rotate: 90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1373,4 +1372,3 @@ html {
     max-width: 72rem;
   }
 }
-

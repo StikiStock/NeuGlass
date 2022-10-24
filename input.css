@@ -1,93 +1,94 @@
 @tailwind base;
 @tailwind components;
+
 @layer components {
-
-    html {
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-      @apply font-['Nunito_Sans']
-    }
-    *, *:before, *:after {
-      -webkit-box-sizing: inherit;
-      -moz-box-sizing: inherit;
-      box-sizing: inherit;
-    }
-
-    .hoverable, .Menu {
-      backface-visibility: hidden;
-      -webkit-backface-visibility: hidden;
-      -moz-backface-visibility: hidden;
-      -o-backface-visibility: hidden;
-      -webkit-transform: translateZ(0) scale(1.0, 1.0);
-    }
-
-    .animated {
-      transition: transform 350ms ease-in-out 100ms, opacity 350ms ease-in-out 100ms;
-      @apply opacity-0 translate-y-[-5px]
-    }
-
-    .shown {
-      @apply opacity-100 translate-y-[0px]
-    }
-
-    .gridbg {
-      background: linear-gradient( 180deg, rgba(0, 0, 0, 0) 10em, black 40em ), url(https://stiki.ir/util/img/grid.svg) 0 0 repeat;
-      background-size: 100% 100%, 2.3rem 2.3rem;
-      @apply absolute inset-0
-    }
-
-    .media {
-      @apply w-[1em] h-[auto] invert my-auto opacity-50 hover:opacity-100 cursor-pointer transition-all
-    }
-
-    .menuItem {
-      @apply font-mono z-0 w-full order-1
-      rounded-xl border-[1px] border-[#5353532c] bg-[#0c0c0cb9]
-      flex overflow-hidden items-end p-2
-    }
-
-    .menuLink {
-      @apply text-slate-300 w-fit hover:text-slate-100 mx-auto
-    }
-
-    .blogpost {
-      @apply w-[80%] mx-auto
-    }
-
-    .blogpost-date {
-      @apply font-mono text-[#000000b2] text-sm p-1
-    }
-
-    .blogpost-shadows {
-      @apply shadow-lg shadow-[#11111175] rounded-b-md
-    }
-
-    .blogpost-img {
-      @apply w-full h-full object-cover rounded-md
-    }
-
-    .blogpost-footer {
-      @apply flex absolute bottom-0 w-full bg-[#11111173] backdrop-blur rounded-b-md
-    }
-
-    .blogpost-title {
-      @apply p-2 font-mono ml-auto w-full text-center text-gray-200
-    }
-
-    .blogpost-read {
-      @apply text-white flex p-2
-    }
-
-    .blogpost-link {
-      @apply font-[MonoBold] text-sm m-auto hover:text-[#3ae57f] transition-all
-    }
-
-    .blogimg {
-      @apply m-2 mx-auto max-w-[85%] md:max-w-[70%] lg:max-w-[55%] w-full border-[#2b2b2b5e] border-[1px]
-    }
-
+  html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
   }
 
-@tailwind utilities;
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+  }
 
+  .hoverable,
+  .Menu {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1, 1);
+  }
+
+  .animated {
+    transition: transform 350ms ease-in-out 100ms,
+      opacity 350ms ease-in-out 100ms;
+    @apply opacity-0 translate-y-[-5px];
+  }
+
+  .shown {
+    @apply opacity-100 translate-y-[0px];
+  }
+
+  .gridbg {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 10em, black 40em),
+      url(https://stiki.ir/util/img/grid.svg) 0 0 repeat;
+    background-size: 100% 100%, 2.3rem 2.3rem;
+    @apply absolute inset-0;
+  }
+
+  .media {
+    @apply w-[1em] h-[auto] invert my-auto opacity-50 hover:opacity-100 cursor-pointer transition-all;
+  }
+
+  .menuItem {
+    @apply font-mono z-0 w-full order-1 rounded-xl border-[1px] border-[#5353532c] bg-[#0c0c0cb9] flex overflow-hidden items-end p-2;
+  }
+
+  .menuLink {
+    @apply text-slate-300 w-fit hover:text-slate-100 mx-auto;
+  }
+
+  .blogpost {
+    @apply w-[80%] mx-auto;
+  }
+
+  .blogpost-date {
+    @apply font-mono text-[#000000b2] text-sm p-1;
+  }
+
+  .blogpost-shadows {
+    @apply shadow-lg shadow-[#11111175] rounded-b-md;
+  }
+
+  .blogpost-img {
+    @apply w-full h-full object-cover rounded-md;
+  }
+
+  .blogpost-footer {
+    @apply flex absolute bottom-0 w-full bg-[#11111173] backdrop-blur rounded-b-md;
+  }
+
+  .blogpost-title {
+    @apply p-2 font-mono ml-auto w-full text-center text-gray-200;
+  }
+
+  .blogpost-read {
+    @apply text-white flex p-2;
+  }
+
+  .blogpost-link {
+    @apply font-[MonoBold] text-sm m-auto hover:text-[#3ae57f] transition-all;
+  }
+
+  .blogimg {
+    @apply m-2 mx-auto max-w-[85%] md:max-w-[70%] lg:max-w-[55%] w-full border-[#2b2b2b5e] border-[1px];
+  }
+}
+
+@tailwind utilities;
